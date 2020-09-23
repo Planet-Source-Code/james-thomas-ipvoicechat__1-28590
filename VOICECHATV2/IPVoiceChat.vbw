@@ -1,0 +1,9 @@
+frmChat = 22, 66, 561, 261, Z, 43, 29, 421, 251, C
+basBinary = 99, 103, 477, 298, C
+MCommon = 88, 88, 657, 339, C
+netUtils = 15, 43, 584, 294, C
+basSoundRec_1 = 21, 21, 666, 236, 
+basSoundRec_2 = 42, 42, 480, 396, C
+basSoundRec_3 = 22, 22, 635, 154, C
+basThread = 66, 66, 657, 274, C
+basStream = 126, 126, 508, 480, C

@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=IPVoiceChat SetUp
+
+
+[Package|IPVoiceChat SetUp|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\unzipped\VOICECHATV2\Package
+
+[Package|IPVoiceChat SetUp|Configure DAO ISAMs]
+Applicable=No
+
+[Package|IPVoiceChat SetUp|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|IPVoiceChat SetUp|Files Found]
+
+[Package|IPVoiceChat SetUp|Files Released]
+vb40032.dll=
+
+[Package|IPVoiceChat SetUp|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\WININET.DLL=
+C:\WINDOWS\SYSTEM\DX7VB.DLL=
+
+[Package|IPVoiceChat SetUp|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=
+C:\WINDOWS\SYSTEM\scrrun.dll=
+
+[Package|IPVoiceChat SetUp|Files Added]
+
+[Package|IPVoiceChat SetUp|Files Removed]
+
+[Package|IPVoiceChat SetUp|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\scrrun.dll=Yes
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\SYSTEM\DX7VB.DLL=Yes
+D:\unzipped\VOICECHATV2\IPVoiceChat.exe=Yes
+
+[Package|IPVoiceChat SetUp|Configure Registry Files]
+Applicable=No
+
+[Package|IPVoiceChat SetUp|Configure Remote Servers]
+Applicable=No
+
+[Package|IPVoiceChat SetUp|Install Locations]
+D:\unzipped\VOICECHAT\IPVoiceChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\scrrun.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVCRT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\DX7VB.DLL=$(WinSysPath)
+D:\unzipped\VOICECHATV2\IPVoiceChat.exe=$(AppPath)
+
+[Package|IPVoiceChat SetUp|Configure Shared Files]
+Applicable=Yes
+D:\unzipped\VOICECHAT\IPVoiceChat.exe=No
+D:\unzipped\VOICECHATV2\IPVoiceChat.exe=No
+
+[Package|IPVoiceChat SetUp|Distribution]
+Type=single
+Size=
+Title=IPVoiceChat
+
+[Package|IPVoiceChat SetUp|IconGroups]
+Group0=IPVoiceChat
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|IPVoiceChat SetUp|IPVoiceChat]
+Icon1=IPVoiceChat.exe
+Title1=IPVoiceChat
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|IPVoiceChat SetUp|Package]
+PackageFolder=D:\unzipped\VOICECHATV2\Package
+ProjectFolder=D:\unzipped\VOICECHATV2
+ServerSideCab=
+File1=D:\unzipped\VOICECHATV2\Package\setup.exe
+File2=D:\unzipped\VOICECHATV2\Package\Setup.Lst
+File3=D:\unzipped\VOICECHATV2\Package\IPVoiceChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
